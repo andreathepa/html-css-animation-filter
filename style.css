@@ -73,10 +73,31 @@
     filter: grayscale(100%);
 }
 
+/* Solution 7 */
+.ex-7-img:hover {
+    filter: grayscale(100%);
+    transition: 2s
+}
+
+/* Solution 8 */
+.ex-8-img:hover {
+    filter: saturate(80%);
+    transition: 2s;
+    border-radius: 20%;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+/* Solution 9 */
+.ex-9-img:hover {
+    filter: saturate(80%);
+    transition: 2s;
+    border-radius: 20%;
+    width: 100px;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
