@@ -16,7 +16,7 @@
     background: red;
 }
 /* Solution 2 */
-.ex-2-square:hover{
+.ex-2-square:active{
     background-color: red;
     width: 100%;
     transition: 2s;
