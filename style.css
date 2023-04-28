@@ -3,10 +3,21 @@
     height: 100px;
     border: 1px solid red;
 }
+/* Solution 1 */
+.ex-1-square:hover{
+    background-color: red;
+    transition: 3s;
+}
+
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+}
+/* Solution 2 */
+.ex-2-square:hover{
+    background-color: red;
+    width: 100%;
 }
 .ex-3-square {
     width: 100px;
