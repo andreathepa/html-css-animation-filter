@@ -6,7 +6,8 @@
 /* Solution 1 */
 .ex-1-square:hover{
     background-color: red;
-    transition: 3s;
+    transition: 2s;
+    
 }
 
 .ex-2-square {
@@ -18,12 +19,21 @@
 .ex-2-square:hover{
     background-color: red;
     width: 100%;
+    transition: 2s;
 }
+
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+/* Solution 3 */
+.ex-3-square:hover {
+    border-radius: 50%;
+    transition: 2s;
+    background: red;
+}
+
 .ex-4-square {
     width: 100px;
     height: 100px;
